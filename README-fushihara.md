@@ -7,6 +7,9 @@ windows10 64bit Pro、python 2.7(anaconda)、powershell(コンソールの文字
 
 上記の環境で動作させる為にオリジナルのコードから変更が発生しています。
 
+変更点は以下のコミットです
+
+- 2017/11/27 [6ea0](https://github.com/fushihara/python-arib/commit/6ea06a3663e28ccb916ec94392c60dcd5021c821) ファイルパスをsjisでエンコードするように指定。mmap.mmapメソッドの引数をwindows用に変更
 
 ## 使い方
 
