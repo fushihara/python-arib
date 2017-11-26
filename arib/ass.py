@@ -113,8 +113,8 @@ class ASSFile(object):
   '''
   def __init__(self, filepath, width=960, height=540):
     try:
-      self._f = codecs.open(filepath,'w',encoding='utf8')
-      self.write_header(width,height, filepath)
+      self._f = codecs.open(filepath.decode('sjis'),'w',encoding='utf8')
+      self.write_header(width,height, filepath.decode('sjis'))
       self.write_styles()
     except:
         raise FileOpenError("Could not open file " + filepath +" for writing.")

@@ -1,3 +1,7 @@
+# fork
+
+レポジトリ https://github.com/fushihara/python-arib のドキュメントは [README-fushihara.md](./README-fushihara.md) を参照。
+
 # arib
 
 Japan Association of Radio Industries and Businesses (ARIB) MPEG2 Transport Stream Closed Caption Decoding Tools.
